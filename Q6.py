@@ -1,15 +1,16 @@
-print("Enter the first number:")
-a = input()
+# Question from Assignment
 
-print("Enter the second Number :")
-b = input ()
+#Program to display Data Type, Memory Address and Size   
 
-Add = int(a) + int(b)
-Multiplication = int(a) * int(b)
-Division = float(a) / float (b)
-Subtraction = int (a) - int(b)
+import sys
 
-print(" Addition  is :", Add)
-print(" Multiplication  is :", Multiplication)
-print(" Division  is :", Division)
-print(" Subtraction  is :", Subtraction)
+def main():
+    X = [1,2,3,4,5]
+    print("Datatype of X is:",type(X))
+    print("Memory Address of X is:",id(X))
+    print("Size of X is:", sys.getsizeof(X))
+    print("The values inside X are:", X)
+    print("The length of X is:",len(X))
+
+if __name__ =="__main__":
+    main()
