@@ -1,0 +1,71 @@
+import sys
+import os
+import time
+import schedule
+
+def DirectoryScanner(DirectoryPath = "Marvellous"):
+    Border = "-"*40
+    
+    timestamp = time.ctime()
+    
+    LogFileName = "Marvellous %s.log"%(timestamp)
+    LogFileName = LogFileName.replace(" ","_")
+    LogFileName = LogFileName.replace(":","_")
+    
+    print("Log File is created with name:", LogFileName)
+    
+    fobj = open(LogFileName,"w")
+    
+    fobj.write(Border + "\n\n")
+    fobj.write(" Marvellous Automation Script \n")
+    fobj.write(Border + "\n\n")
+    
+    fobj.write("Files from the directory are : \n\n")
+    fobj.write(Border + "\n")
+    
+    for FolderName,SubFolder,FileName in os.walk(DirectoryPath):
+        for fname in FileName :
+            fobj.write(fname + "\n")
+    
+    fobj.write(Border + "\n")
+    fobj.write("Log File is created at :" +timestamp)
+    fobj.write("\n"+ Border + "\n")
+          
+    fobj.close()
+    
+
+def main():
+    
+    Border = "-"*50
+    print(Border)
+    print("          Marvellous Automation Script         ")
+    print(Border)
+    
+    if(len(sys.argv) == 2):
+        if(sys.argv[1] == "--h" or sys.argv[1] == "--H"):
+            print("This automation Script use to travel the Directory")
+            print("For Better usage check --U flag")
+        elif(sys.argv[1] == "--u" or sys.argv[1] == "--U"):
+            print("Please exceute the Script as ")
+            print("python FileName.py DirectoryName")
+            print("DirectoryName should be Absolute Path")
+        else:
+            #DirectoryScanner(sys.argv[1])
+            
+            schedule.every(1).minute.do(DirectoryScanner,sys.argv[1])
+            
+            while True:
+                schedule.run_pending()
+                time.sleep(1)
+                
+    else:
+        print("Invalid No of Arguments")
+        print("Please use --h or --u for more information")
+    
+    print(Border)
+    print("   Thank You for using  Automation Script     ")
+    print(Border)
+
+if __name__ == "__main__":
+    main()
+    

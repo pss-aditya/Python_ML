@@ -1,0 +1,1727 @@
+------------------------------------------------------------
+  Marvellous Platform Survillence System  
+Log File gets created at :2026_07_26_20_39_10
+------------------------------------------------------------
+
+---------------------- System Report  ----------------------
+Number of Active CPU Core are : 12
+CPU Usage                     : 7.8 %
+------------------------------------------------------------
+RAM Usage           : 84.3 %
+Total RAM Available : 7887233024
+bytes 
+------------------------------------------------------------
+Network Usage Report 
+Sent    : 1.36 MB
+Recieve : 1.36 MB
+PID            : 0
+Name           : System Idle Process
+Username       : NT AUTHORITY\SYSTEM
+Status         : running
+CPU Percent    : 1114.10
+RAM Percent    : 0.00
+------------------------------------------------------------
+PID            : 4
+Name           : System
+Username       : NT AUTHORITY\SYSTEM
+Status         : running
+CPU Percent    : 3.70
+RAM Percent    : 0.16
+------------------------------------------------------------
+PID            : 188
+Name           : 
+Username       : None
+Status         : stopped
+CPU Percent    : 0.00
+RAM Percent    : 0.56
+------------------------------------------------------------
+PID            : 232
+Name           : Registry
+Username       : None
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.55
+------------------------------------------------------------
+PID            : 772
+Name           : smss.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.02
+------------------------------------------------------------
+PID            : 808
+Name           : FileSyncHelper.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.39
+------------------------------------------------------------
+PID            : 916
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.13
+------------------------------------------------------------
+PID            : 1064
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.19
+------------------------------------------------------------
+PID            : 1084
+Name           : csrss.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.08
+------------------------------------------------------------
+PID            : 1088
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.18
+------------------------------------------------------------
+PID            : 1240
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.14
+------------------------------------------------------------
+PID            : 1244
+Name           : wininit.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.12
+------------------------------------------------------------
+PID            : 1252
+Name           : csrss.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.20
+RAM Percent    : 0.10
+------------------------------------------------------------
+PID            : 1260
+Name           : Code.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.73
+------------------------------------------------------------
+PID            : 1312
+Name           : winlogon.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.21
+------------------------------------------------------------
+PID            : 1388
+Name           : services.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.25
+------------------------------------------------------------
+PID            : 1396
+Name           : LsaIso.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.05
+------------------------------------------------------------
+PID            : 1416
+Name           : lsass.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.31
+------------------------------------------------------------
+PID            : 1548
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.53
+------------------------------------------------------------
+PID            : 1580
+Name           : fontdrvhost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.10
+------------------------------------------------------------
+PID            : 1588
+Name           : fontdrvhost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.05
+------------------------------------------------------------
+PID            : 1636
+Name           : svchost.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.23
+------------------------------------------------------------
+PID            : 1672
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.25
+------------------------------------------------------------
+PID            : 1728
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.17
+------------------------------------------------------------
+PID            : 1752
+Name           : HPAudioSwitch.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.60
+------------------------------------------------------------
+PID            : 1808
+Name           : dwm.exe
+Username       : None
+Status         : running
+CPU Percent    : 3.00
+RAM Percent    : 1.20
+------------------------------------------------------------
+PID            : 1896
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.09
+------------------------------------------------------------
+PID            : 1944
+Name           : Code.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 6.70
+RAM Percent    : 1.98
+------------------------------------------------------------
+PID            : 2036
+Name           : OmenInstallMonitor.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.09
+------------------------------------------------------------
+PID            : 2044
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.21
+------------------------------------------------------------
+PID            : 2076
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.22
+------------------------------------------------------------
+PID            : 2092
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.15
+------------------------------------------------------------
+PID            : 2144
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.18
+------------------------------------------------------------
+PID            : 2188
+Name           : AUEPDU.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.20
+------------------------------------------------------------
+PID            : 2204
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.10
+------------------------------------------------------------
+PID            : 2212
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.13
+------------------------------------------------------------
+PID            : 2312
+Name           : atiesrxx.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.11
+------------------------------------------------------------
+PID            : 2372
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.29
+------------------------------------------------------------
+PID            : 2400
+Name           : amdfendrsr.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.12
+------------------------------------------------------------
+PID            : 2424
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.17
+------------------------------------------------------------
+PID            : 2432
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.50
+------------------------------------------------------------
+PID            : 2444
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.22
+------------------------------------------------------------
+PID            : 2472
+Name           : OverlayHelper.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.09
+------------------------------------------------------------
+PID            : 2572
+Name           : GameInputSvc.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.10
+------------------------------------------------------------
+PID            : 2776
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.16
+------------------------------------------------------------
+PID            : 2780
+Name           : OmenCap.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.14
+------------------------------------------------------------
+PID            : 2788
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.12
+------------------------------------------------------------
+PID            : 2844
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.20
+RAM Percent    : 0.15
+------------------------------------------------------------
+PID            : 2920
+Name           : dasHost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.09
+------------------------------------------------------------
+PID            : 2936
+Name           : AMDRSSrcExt.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.86
+------------------------------------------------------------
+PID            : 2992
+Name           : ShellHost.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.60
+------------------------------------------------------------
+PID            : 3040
+Name           : NVDisplay.Container.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.41
+------------------------------------------------------------
+PID            : 3164
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.27
+------------------------------------------------------------
+PID            : 3240
+Name           : atieclxx.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.30
+RAM Percent    : 0.24
+------------------------------------------------------------
+PID            : 3248
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 1.00
+RAM Percent    : 0.20
+------------------------------------------------------------
+PID            : 3256
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.10
+------------------------------------------------------------
+PID            : 3264
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.14
+------------------------------------------------------------
+PID            : 3288
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.12
+------------------------------------------------------------
+PID            : 3380
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.13
+------------------------------------------------------------
+PID            : 3396
+Name           : Notepad.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 1.67
+------------------------------------------------------------
+PID            : 3400
+Name           : MemCompression
+Username       : None
+Status         : running
+CPU Percent    : 0.80
+RAM Percent    : 2.63
+------------------------------------------------------------
+PID            : 3444
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.16
+------------------------------------------------------------
+PID            : 3452
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.16
+------------------------------------------------------------
+PID            : 3468
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.28
+------------------------------------------------------------
+PID            : 3508
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.15
+------------------------------------------------------------
+PID            : 3516
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.12
+------------------------------------------------------------
+PID            : 3528
+Name           : TouchpointAnalyticsClientService.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.80
+------------------------------------------------------------
+PID            : 3536
+Name           : AppHelperCap.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.23
+------------------------------------------------------------
+PID            : 3560
+Name           : SysInfoCap.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.36
+------------------------------------------------------------
+PID            : 3568
+Name           : DiagsCap.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.24
+------------------------------------------------------------
+PID            : 3580
+Name           : NetworkCap.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.20
+------------------------------------------------------------
+PID            : 3652
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.22
+------------------------------------------------------------
+PID            : 3756
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.25
+------------------------------------------------------------
+PID            : 3900
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.39
+------------------------------------------------------------
+PID            : 4012
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.13
+------------------------------------------------------------
+PID            : 4228
+Name           : NVDisplay.Container.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.54
+------------------------------------------------------------
+PID            : 4676
+Name           : unsecapp.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.15
+------------------------------------------------------------
+PID            : 4684
+Name           : python.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 3.50
+RAM Percent    : 0.33
+------------------------------------------------------------
+PID            : 4760
+Name           : TextInputHost.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 3.10
+RAM Percent    : 0.64
+------------------------------------------------------------
+PID            : 4768
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.12
+------------------------------------------------------------
+PID            : 4800
+Name           : RuntimeBroker.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.26
+------------------------------------------------------------
+PID            : 4804
+Name           : WmiPrvSE.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.17
+------------------------------------------------------------
+PID            : 4848
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.19
+------------------------------------------------------------
+PID            : 5020
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.26
+------------------------------------------------------------
+PID            : 5040
+Name           : SearchProtocolHost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.30
+------------------------------------------------------------
+PID            : 5088
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.14
+------------------------------------------------------------
+PID            : 5180
+Name           : msedge.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.23
+------------------------------------------------------------
+PID            : 5192
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.14
+------------------------------------------------------------
+PID            : 5296
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.18
+------------------------------------------------------------
+PID            : 5304
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.13
+------------------------------------------------------------
+PID            : 5312
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.20
+------------------------------------------------------------
+PID            : 5324
+Name           : ONENOTEM.EXE
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.08
+------------------------------------------------------------
+PID            : 5392
+Name           : SecurityHealthSystray.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.17
+------------------------------------------------------------
+PID            : 5440
+Name           : taskhostw.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.25
+------------------------------------------------------------
+PID            : 5572
+Name           : SystemOptimizer.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.12
+------------------------------------------------------------
+PID            : 5588
+Name           : WidgetService.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.35
+------------------------------------------------------------
+PID            : 5752
+Name           : conhost.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.09
+------------------------------------------------------------
+PID            : 5768
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.39
+------------------------------------------------------------
+PID            : 5940
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.16
+------------------------------------------------------------
+PID            : 5944
+Name           : sihost.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.54
+------------------------------------------------------------
+PID            : 5988
+Name           : svchost.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.14
+------------------------------------------------------------
+PID            : 6000
+Name           : svchost.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.54
+------------------------------------------------------------
+PID            : 6040
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.22
+------------------------------------------------------------
+PID            : 6056
+Name           : svchost.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.14
+------------------------------------------------------------
+PID            : 6068
+Name           : NisSrv.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.17
+------------------------------------------------------------
+PID            : 6116
+Name           : svchost.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.44
+------------------------------------------------------------
+PID            : 6168
+Name           : conhost.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.09
+------------------------------------------------------------
+PID            : 6284
+Name           : mqsvc.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.19
+------------------------------------------------------------
+PID            : 6300
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.29
+------------------------------------------------------------
+PID            : 6320
+Name           : AUEPMaster.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.20
+RAM Percent    : 0.10
+------------------------------------------------------------
+PID            : 6388
+Name           : HP.ContextAware.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.75
+------------------------------------------------------------
+PID            : 6540
+Name           : AMDRSServ.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 1.60
+RAM Percent    : 1.14
+------------------------------------------------------------
+PID            : 6548
+Name           : Code.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 8.17
+------------------------------------------------------------
+PID            : 6748
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.32
+------------------------------------------------------------
+PID            : 6836
+Name           : explorer.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 5.20
+RAM Percent    : 3.82
+------------------------------------------------------------
+PID            : 6972
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.40
+RAM Percent    : 0.30
+------------------------------------------------------------
+PID            : 6984
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.13
+------------------------------------------------------------
+PID            : 7060
+Name           : LockApp.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 1.13
+------------------------------------------------------------
+PID            : 7072
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.20
+RAM Percent    : 0.15
+------------------------------------------------------------
+PID            : 7116
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.25
+------------------------------------------------------------
+PID            : 7156
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.34
+------------------------------------------------------------
+PID            : 7260
+Name           : Code.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 1.60
+RAM Percent    : 3.21
+------------------------------------------------------------
+PID            : 7308
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.18
+------------------------------------------------------------
+PID            : 7368
+Name           : CrossDeviceResume.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.41
+------------------------------------------------------------
+PID            : 7436
+Name           : OpenConsole.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.19
+------------------------------------------------------------
+PID            : 7464
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.32
+------------------------------------------------------------
+PID            : 7484
+Name           : msedge.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.18
+------------------------------------------------------------
+PID            : 7492
+Name           : spoolsv.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.22
+------------------------------------------------------------
+PID            : 7692
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.13
+------------------------------------------------------------
+PID            : 7760
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.50
+------------------------------------------------------------
+PID            : 7828
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.74
+------------------------------------------------------------
+PID            : 7836
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.18
+------------------------------------------------------------
+PID            : 7844
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.56
+------------------------------------------------------------
+PID            : 7852
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.11
+------------------------------------------------------------
+PID            : 7860
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.09
+------------------------------------------------------------
+PID            : 7868
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.12
+------------------------------------------------------------
+PID            : 7876
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.35
+------------------------------------------------------------
+PID            : 7940
+Name           : SECOMN64.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.22
+------------------------------------------------------------
+PID            : 7968
+Name           : WmiPrvSE.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.23
+------------------------------------------------------------
+PID            : 7972
+Name           : RtkBtManServ.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.12
+------------------------------------------------------------
+PID            : 7984
+Name           : MsMpEng.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.50
+RAM Percent    : 3.04
+------------------------------------------------------------
+PID            : 7992
+Name           : SMSvcHost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.24
+------------------------------------------------------------
+PID            : 8000
+Name           : GameInputRedistService.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.16
+------------------------------------------------------------
+PID            : 8008
+Name           : RtkAudUService64.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.24
+------------------------------------------------------------
+PID            : 8016
+Name           : sqlservr.exe
+Username       : None
+Status         : running
+CPU Percent    : 4.60
+RAM Percent    : 0.73
+------------------------------------------------------------
+PID            : 8024
+Name           : ETDService.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.10
+------------------------------------------------------------
+PID            : 8032
+Name           : sqlwriter.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.13
+------------------------------------------------------------
+PID            : 8044
+Name           : sqlbrowser.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.08
+------------------------------------------------------------
+PID            : 8056
+Name           : MpDefenderCoreService.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.25
+------------------------------------------------------------
+PID            : 8132
+Name           : OfficeClickToRun.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.40
+------------------------------------------------------------
+PID            : 8272
+Name           : Code.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.44
+------------------------------------------------------------
+PID            : 8464
+Name           : gamingservicesnet.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.15
+------------------------------------------------------------
+PID            : 8552
+Name           : msedge.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.41
+------------------------------------------------------------
+PID            : 8608
+Name           : ETDCtrl.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.21
+------------------------------------------------------------
+PID            : 8632
+Name           : GameInputRedistService.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.19
+------------------------------------------------------------
+PID            : 8676
+Name           : gamingservices.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.61
+------------------------------------------------------------
+PID            : 8696
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.19
+------------------------------------------------------------
+PID            : 9564
+Name           : msedge.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 1.99
+------------------------------------------------------------
+PID            : 9676
+Name           : svchost.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.45
+------------------------------------------------------------
+PID            : 9704
+Name           : Code.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.85
+------------------------------------------------------------
+PID            : 9876
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.05
+------------------------------------------------------------
+PID            : 9972
+Name           : SECOCL64.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.16
+------------------------------------------------------------
+PID            : 9984
+Name           : conhost.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.08
+------------------------------------------------------------
+PID            : 10180
+Name           : pet.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.13
+------------------------------------------------------------
+PID            : 10220
+Name           : AggregatorHost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.17
+------------------------------------------------------------
+PID            : 10232
+Name           : WindowsTerminal.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 1.79
+------------------------------------------------------------
+PID            : 10344
+Name           : RuntimeBroker.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.78
+------------------------------------------------------------
+PID            : 10412
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.07
+------------------------------------------------------------
+PID            : 10680
+Name           : OpenConsole.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.15
+------------------------------------------------------------
+PID            : 10892
+Name           : SecurityHealthService.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.32
+------------------------------------------------------------
+PID            : 10924
+Name           : Code.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 1.08
+------------------------------------------------------------
+PID            : 10960
+Name           : SearchHost.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 1.35
+------------------------------------------------------------
+PID            : 10968
+Name           : StartMenuExperienceHost.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.20
+RAM Percent    : 1.34
+------------------------------------------------------------
+PID            : 11216
+Name           : Widgets.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.60
+------------------------------------------------------------
+PID            : 11260
+Name           : svchost.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.40
+------------------------------------------------------------
+PID            : 11292
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.19
+------------------------------------------------------------
+PID            : 11352
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.22
+------------------------------------------------------------
+PID            : 11396
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.27
+------------------------------------------------------------
+PID            : 11868
+Name           : python.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.31
+------------------------------------------------------------
+PID            : 11896
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 1.26
+------------------------------------------------------------
+PID            : 12088
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 1.10
+------------------------------------------------------------
+PID            : 12700
+Name           : RtkAudUService64.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.23
+------------------------------------------------------------
+PID            : 12744
+Name           : svchost.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.19
+------------------------------------------------------------
+PID            : 12856
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.21
+------------------------------------------------------------
+PID            : 12904
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.19
+------------------------------------------------------------
+PID            : 12912
+Name           : OneDrive.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 1.03
+------------------------------------------------------------
+PID            : 12996
+Name           : GameInputSvc.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.50
+RAM Percent    : 0.29
+------------------------------------------------------------
+PID            : 13036
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.56
+------------------------------------------------------------
+PID            : 13060
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 1.01
+------------------------------------------------------------
+PID            : 13156
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.26
+------------------------------------------------------------
+PID            : 13184
+Name           : SearchIndexer.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.55
+------------------------------------------------------------
+PID            : 13644
+Name           : ctfmon.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 2.70
+RAM Percent    : 0.44
+------------------------------------------------------------
+PID            : 13844
+Name           : FileCoAuth.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.34
+------------------------------------------------------------
+PID            : 14048
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.20
+RAM Percent    : 0.37
+------------------------------------------------------------
+PID            : 14096
+Name           : Code.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 23.80
+RAM Percent    : 4.29
+------------------------------------------------------------
+PID            : 14184
+Name           : RadeonSoftware.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.60
+RAM Percent    : 0.40
+------------------------------------------------------------
+PID            : 14256
+Name           : cncmd.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.03
+------------------------------------------------------------
+PID            : 14280
+Name           : cmd.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.06
+------------------------------------------------------------
+PID            : 14328
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.12
+------------------------------------------------------------
+PID            : 14372
+Name           : Code.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.58
+------------------------------------------------------------
+PID            : 14484
+Name           : conhost.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.02
+------------------------------------------------------------
+PID            : 14604
+Name           : msedge.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.28
+------------------------------------------------------------
+PID            : 14708
+Name           : AppActions.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.56
+------------------------------------------------------------
+PID            : 14884
+Name           : conhost.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.12
+------------------------------------------------------------
+PID            : 14892
+Name           : cmd.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.09
+------------------------------------------------------------
+PID            : 14944
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.45
+------------------------------------------------------------
+PID            : 14988
+Name           : RuntimeBroker.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.28
+------------------------------------------------------------
+PID            : 15060
+Name           : ms-teams.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.37
+------------------------------------------------------------
+PID            : 15144
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.38
+------------------------------------------------------------
+PID            : 15168
+Name           : CPUMetricsServer.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.07
+------------------------------------------------------------
+PID            : 15332
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.03
+------------------------------------------------------------
+PID            : 15416
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.84
+------------------------------------------------------------
+PID            : 15856
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.20
+------------------------------------------------------------
+PID            : 15868
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.18
+------------------------------------------------------------
+PID            : 15880
+Name           : DesktopExtension.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.78
+------------------------------------------------------------
+PID            : 15892
+Name           : CHXSmartScreen.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : stopped
+CPU Percent    : 0.00
+RAM Percent    : 1.00
+------------------------------------------------------------
+PID            : 16196
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.03
+------------------------------------------------------------
+PID            : 16208
+Name           : ms-teams.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.41
+------------------------------------------------------------
+PID            : 16352
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.02
+------------------------------------------------------------
+PID            : 16548
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.28
+------------------------------------------------------------
+PID            : 16668
+Name           : Code.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.76
+------------------------------------------------------------
+PID            : 16688
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.16
+------------------------------------------------------------
+PID            : 16824
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.14
+------------------------------------------------------------
+PID            : 16924
+Name           : powershell.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.73
+------------------------------------------------------------
+PID            : 17140
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.10
+------------------------------------------------------------
+PID            : 17220
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.44
+------------------------------------------------------------
+PID            : 17232
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.13
+------------------------------------------------------------
+PID            : 17304
+Name           : RuntimeBroker.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.31
+------------------------------------------------------------
+PID            : 17316
+Name           : M365Copilot.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 1.42
+------------------------------------------------------------
+PID            : 17452
+Name           : HP.HPX.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.55
+------------------------------------------------------------
+PID            : 17508
+Name           : msedge.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.53
+------------------------------------------------------------
+PID            : 17520
+Name           : WhatsApp.Root.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.30
+RAM Percent    : 1.57
+------------------------------------------------------------
+PID            : 17700
+Name           : RuntimeBroker.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.28
+------------------------------------------------------------
+PID            : 17712
+Name           : svchost.exe
+Username       : None
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.21
+------------------------------------------------------------
+PID            : 17860
+Name           : msedge.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.51
+------------------------------------------------------------
+PID            : 17892
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 1.11
+------------------------------------------------------------
+PID            : 17908
+Name           : notepad++.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.69
+------------------------------------------------------------
+PID            : 17920
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.17
+------------------------------------------------------------
+PID            : 18088
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.21
+------------------------------------------------------------
+PID            : 18096
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.10
+RAM Percent    : 0.29
+------------------------------------------------------------
+PID            : 18144
+Name           : msedgewebview2.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.10
+------------------------------------------------------------
+PID            : 18380
+Name           : Code.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 11.10
+RAM Percent    : 1.62
+------------------------------------------------------------
+PID            : 18680
+Name           : RuntimeBroker.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.69
+------------------------------------------------------------
+PID            : 19572
+Name           : RuntimeBroker.exe
+Username       : LAPTOP-G1T95FR1\Aditya
+Status         : running
+CPU Percent    : 0.00
+RAM Percent    : 0.12
+------------------------------------------------------------
+------------------------------------------------------------
+---------------------- End of Log File----------------------
+------------------------------------------------------------

@@ -1,0 +1,23 @@
+#-----------------------------------
+#                LIST          TUPLE
+#-----------------------------------
+# Ordered        Yes            No
+# Indexed        Yes            No
+# Mutable        Yes            No(change hot nahi)
+#-----------------------------------
+
+
+def main():
+    Data1=[10,20,30,40] #list
+    Data2=(10,20,30,40) #tuple
+    
+    
+    print(Data1)
+    print(Data2)
+    
+    print(Data1[0])
+    print(Data2[0])
+
+if __name__ == "__main__":
+    main()
+    #data is immutable manje je change hot nahi 
