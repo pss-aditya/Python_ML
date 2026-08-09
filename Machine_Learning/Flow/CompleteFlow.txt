@@ -1,0 +1,181 @@
+                                      ARTIFICIAL INTELLIGENCE
+                                               │
+                         ┌─────────────────────┼─────────────────────┐
+                         │                     │                     │
+                         ▼                     ▼                     ▼
+                   NARROW AI              GENERAL AI            SUPER AI
+                 (Weak AI / ANI)             (AGI)               (ASI)
+                         │
+                         │
+                         │  ← TODAY'S PRACTICAL AI
+                         │
+                         ▼
+                MACHINE LEARNING (ML)
+                         │
+         ┌───────────────┼────────────────┬──────────────────┐
+         │               │                │                  │
+         ▼               ▼                ▼                  ▼
+   SUPERVISED       UNSUPERVISED    SEMI-SUPERVISED   REINFORCEMENT
+    LEARNING          LEARNING          LEARNING         LEARNING
+         │               │                │                  │
+         │               │                │                  │
+    ┌────┴────┐      ┌────┴─────┐    Labeled +             Agent
+    │         │      │          │    Unlabeled Data          │
+    ▼         ▼      ▼          ▼         │                  │
+CLASSIFICATION REGRESSION  CLUSTERING  DIMENSIONALITY        ▼
+                              │          REDUCTION       Environment
+                              │                              │
+                              ▼                              ▼
+                         ┌───────────┐                     Action
+                         │ Algorithms│                       │
+                         └─────┬─────┘                       ▼
+                               │                           Reward
+                               │
+                               ├─ K-Means
+                               ├─ Hierarchical
+                               └─ DBSCAN
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│                         SUPERVISED LEARNING                              │
+└──────────────────────────────────────────────────────────────────────────┘
+                                   │
+       ┌───────────────────────────┴──────────────────────────┐
+       │                                                      │
+       ▼                                                      ▼
+ CLASSIFICATION                                           REGRESSION
+       │                                                      │
+       │                                                      │
+       ├─ KNN                                                 ├─ Linear Regression
+       ├─ Logistic Regression                                 ├─ Ridge Regression 
+       |─ Naive Bayes                                         ├─ Lasso Regression
+       ├─ Decision   Tree                                     ├─ Decision Tree Regression
+       ├─ Random Forset                                       ├─ Random Forest Regression
+       ├─ SVM                                                 └─ SVR
+       ├─ Gradient Boosting
+       └─ AdaBoost
+       
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│                        UNSUPERVISED LEARNING                             │
+└──────────────────────────────────────────────────────────────────────────┘
+              │
+       ┌──────┴───────────────┐
+       │                      │
+       ▼                      ▼
+   CLUSTERING          DIMENSIONALITY REDUCTION
+       │                      │
+       ├─ K-Means             ├─ PCA
+       ├─ Hierarchical        ├─ t-SNE
+       └─ DBSCAN              └─ UMAP
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│                         DEEP LEARNING                                    │
+└──────────────────────────────────────────────────────────────────────────┘
+              │
+              │
+              ▼
+        SUBSET OF ML
+              │
+       ┌──────┴─────────┐
+       │                │
+       ▼                ▼
+ NEURAL NETWORKS    DEEP NEURAL NETWORKS
+       │                │
+       ├─ ANN           ├─ CNN
+       ├─ RNN           ├─ RNN / LSTM
+       └─ etc.          └─ Transformers
+
+
+                    ML MODEL DEVELOPMENT PIPELINE
+                              │
+                              ▼
+                         DATASET
+                              │
+                              ▼
+                     DATA PREPARATION
+                              │
+                     ┌────────┴────────┐
+                     │                 │
+                     ▼                 ▼
+                  Pandas             NumPy
+                     │
+                     ▼
+                      EDA
+                     │
+                     ▼
+               VISUALIZATION
+                     │
+              ┌──────┴──────┐
+              ▼             ▼
+         Matplotlib       Seaborn
+              │
+              ▼
+        FEATURE ENGINEERING
+              │
+       ┌──────┴──────────┐
+       ▼                 ▼
+ Feature Selection   Feature Creation
+       │
+       ▼
+    X + y
+       │
+       ▼
+ TRAIN / TEST SPLIT
+       │
+   ┌───┴────┐
+   ▼        ▼
+ X_train   X_test
+ y_train   y_test
+   │
+   ▼
+ MODEL TRAINING
+     fit()
+       │
+       ▼
+    MODEL
+       │
+       ▼
+  PREDICTION
+   predict()
+       │
+       ▼
+    y_pred
+       │
+       ▼
+   EVALUATION
+       │
+   ┌───┴─────────────────────┐
+   ▼                         ▼
+Classification            Regression
+Metrics                   Metrics
+   │                         │
+   ├─ Accuracy               ├─ MAE
+   ├─ Precision              ├─ MSE
+   ├─ Recall                 ├─ RMSE
+   ├─ F1 Score               └─ R²
+   └─ ROC-AUC
+       │
+       ▼
+ MODEL TUNING
+       │
+       ├─ Hyperparameters
+       ├─ Grid Search
+       ├─ Random Search
+       └─ Cross Validation
+       │
+       ▼
+    VALIDATION
+       │
+       ▼
+   DEPLOYMENT
+       │
+       ├─ API
+       ├─ Web / App
+       ├─ Cloud
+       └─ Docker
+       │
+       ▼
+ MONITORING & RETRAINING
