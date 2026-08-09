@@ -1,0 +1,20 @@
+                DATASET
+                   │
+             Train / Test
+                   │
+        ┌──────────┴──────────┐
+        ↓                     ↓
+      TRAIN                  TEST
+        │                     │
+ X_train + y_train          X_test
+        │                     │
+        ↓                     ↓
+      LEARN                 PREDICT
+                              │
+                              ↓
+                            y_pred
+                              │
+                              │ compare
+                              ↓
+                           y_test
+                         (actual answer)
