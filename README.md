@@ -2,7 +2,7 @@
 
 A personal learning repository documenting my ongoing journey in Python, Machine Learning, Automation, Artificial Intelligence, and Generative AI.
 
-This repository contains the concepts, hands-on practice, assignments, implementations, experiments, and projects that I work on throughout my learning journey.
+This repository contains the concepts, hands-on practice, Excersises, implementations, experiments, and projects that I work on throughout my learning journey.
 
 The repository is continuously updated as I learn and implement new concepts.
 
