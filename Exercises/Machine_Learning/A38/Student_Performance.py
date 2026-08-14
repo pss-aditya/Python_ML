@@ -4,143 +4,130 @@ import seaborn as sns
 
 
 def main():
-
+    Border = "-"*70
+    
     # ============================================================
     # Q1. Load the dataset and display basic information
     # ============================================================
-
+    
+    
+    print(Border)
+    print("Load the dataset")
+    print(Border)
+    
     df = pd.read_csv("student_performance_ml.csv")
-
-    print("\n========== Q1: DATASET INFORMATION ==========")
-
-    # First 5 records
-    print("\nFirst 5 records:")
+    
+    print("\nFirst 5 records :")
     print(df.head())
-
-    # Last 5 records
-    print("\nLast 5 records:")
+    
+    print("\nLast 5 records :")
     print(df.tail())
-
-    # Number of rows and columns
-    print("\nNumber of rows and columns:")
+    
+    print("\nTotal number of rows and columns :")
     print(df.shape)
-
-    # Column names
-    print("\nColumn names:")
+    
+    print("\nList of column names :")
     print(df.columns.tolist())
-
-    # Data types
-    print("\nData types:")
-    print(df.dtypes)
-
-
+    
+    print("\nData types of each column :")
+    print(df.dtypes,"\n")
+    
+    
     # ============================================================
     # Q2. Total students, Passed students, Failed students
     # ============================================================
 
-    print("\n========== Q2: PASS / FAIL COUNT ==========")
-
-    total_students = len(df)
-
-    passed_students = (df["FinalResult"] == 1).sum()
-
-    failed_students = (df["FinalResult"] == 0).sum()
-
-    print("Total students :", total_students)
-    print("Passed students:", passed_students)
-    print("Failed students:", failed_students)
-
-
+    print(Border)
+    print("Total students, Passed students, Failed students")
+    print(Border)
+    
+    passStudents = (df["FinalResult"] == 1).sum()
+    failedStudents = (df["FinalResult"] == 0).sum()
+    
+    print("\nTotal number of Rows in Dataset :", len(df))  
+    print("\nCount of Passed Student is      :", passStudents)
+    print("\nCount of Failed Student is      :", failedStudents,"\n") 
+    
+    
     # ============================================================
     # Q3. Statistical calculations
     # ============================================================
 
-    print("\n========== Q3: STATISTICAL ANALYSIS ==========")
-
-    average_study_hours = df["StudyHours"].mean()
-    average_attendance = df["Attendance"].mean()
-    maximum_previous_score = df["PreviousScore"].max()
-    minimum_sleep_hours = df["SleepHours"].min()
-
-    print("Average StudyHours       :", average_study_hours)
-    print("Average Attendance       :", average_attendance)
-    print("Maximum PreviousScore    :", maximum_previous_score)
-    print("Minimum SleepHours       :", minimum_sleep_hours)
+    print(Border)
+    print("Statistical calculations")
+    print(Border)
+    
+    AverageStudyHour = df['StudyHours'].mean()
+    AverageAttendance = df['Attendance'].mean()
+    Max_PreviousScore = df['PreviousScore'].max()
+    Min_SleepHours = df['SleepHours'].min()
+    
+    print(f"Average Study Hours of Student is    : {AverageStudyHour}""\n")
+    print(f"Average Attendance of Student is     : {AverageAttendance}""\n")
+    print(f"Maximum PreviousScore of Student is  : {Max_PreviousScore}""\n")
+    print(f"Minimum Sleep Hour of Student is     : {Min_SleepHours}""\n")
 
 
     # ============================================================
     # Q4. FinalResult distribution
     # ============================================================
-
-    print("\n========== Q4: FINAL RESULT DISTRIBUTION ==========")
-
-    result_counts = df["FinalResult"].value_counts()
-
-    print("\nFinalResult counts:")
-    print(result_counts)
-
-    result_percentages = df["FinalResult"].value_counts(normalize=True) * 100
-
-    pass_percentage = result_percentages.get(1, 0)
-    fail_percentage = result_percentages.get(0, 0)
-
-    print("\nPass percentage:", pass_percentage, "%")
-    print("Fail percentage:", fail_percentage, "%")
-
-    difference = abs(pass_percentage - fail_percentage)
-
-    print("Difference between Pass and Fail:", difference, "%")
-
-    print("\nObservation:")
-
+ 
+    print(Border)
+    print("Final Result Distribution")
+    print(Border)   
+    
+    result_count = df['FinalResult'].value_counts()
+    total_students = len(df)
+    pass_count = result_count.get(1,0)
+    fail_count = result_count.get(0,0)
+    pass_percentage = pass_count/total_students * 100
+    fail_percentage = fail_count/total_students * 100
+    difference = abs (pass_percentage - fail_percentage)
+    
+    print(f"Pass Students Percentage is          : {pass_percentage}\n")
+    print(f"Fail Students Percentage is          : {fail_percentage}\n")
+    print(f"Difference in Students Percentage is : {difference}\n")
+  
+    print("--                          Observation is                         --")
     if difference <= 10:
-        print("The dataset is approximately balanced because the Pass and Fail percentages are close.")
+        print("-->   The Difference is close so we can say Dataset is balanced   <--""\n")
     else:
-        print("The dataset is not balanced because there is a noticeable difference between Pass and Fail percentages.")
-
-
+        print("-->    The Difference is Huge so we can say it is not balanced    <--""\n")
+        
+        
     # ============================================================
     # Q5. StudyHours and Attendance vs FinalResult
     # ============================================================
+    
+    print(Border)
+    print("StudyHours and Attendance vs FinalResult")
+    print(Border) 
+    
+    study_result = df.groupby("StudyHours")["FinalResult"].mean() * 100
+    attendance_result = df.groupby("Attendance")["FinalResult"].mean() * 100
 
-    print("\n========== Q5: STUDY HOURS & ATTENDANCE ANALYSIS ==========")
-
-    average_by_result = df.groupby("FinalResult")[
-        ["StudyHours", "Attendance"]
-    ].mean()
-
-    print("\nAverage StudyHours and Attendance by FinalResult:")
-    print(average_by_result)
-
-    pass_avg_study = average_by_result.loc[1, "StudyHours"]
-    fail_avg_study = average_by_result.loc[0, "StudyHours"]
-
-    pass_avg_attendance = average_by_result.loc[1, "Attendance"]
-    fail_avg_attendance = average_by_result.loc[0, "Attendance"]
-
-    print("\nObservations:")
-
-    if pass_avg_study > fail_avg_study:
-        print("1. Students who passed have higher average StudyHours than students who failed.")
-    else:
-        print("1. Students who passed do not have higher average StudyHours than students who failed.")
-
-    if pass_avg_attendance > fail_avg_attendance:
-        print("2. Students who passed have higher average Attendance than students who failed.")
-    else:
-        print("2. Students who passed do not have higher average Attendance than students who failed.")
-
-    print("3. StudyHours shows the difference in average study time between Pass and Fail groups.")
-    print("4. Attendance shows the difference in average attendance between Pass and Fail groups.")
-    print("5. These observations describe relationships in this dataset; they do not prove causation.")
-
-
+    study_result = study_result.map(lambda x: f"{x:.0f}%")
+    attendance_result = attendance_result.map(lambda x: f"{x:.0f}%")
+    
+    print(f"Pass percentage according to StudyHours : {study_result}\n")
+    print(f"Pass percentage according to Attendance : {attendance_result}\n")
+    
+    print("--                                   Observation                          --")
+    print("1. Students with StudyHours up to 4.0 have a 0% observed pass rate, while students with 4.2 or more StudyHours have a 100% observed pass rate.")
+    print("2. This indicates that higher StudyHours are strongly associated with passing in this dataset.")
+    print("3. Students with Attendance up to 75% have a 0% observed pass rate, while students with 76% or higher Attendance have a 100% observed pass rate.")
+    print("4. This indicates that higher Attendance is strongly associated with better FinalResult in this dataset.")
+    
+    
+    
     # ============================================================
     # Q6. Histogram of StudyHours
     # ============================================================
-
-    print("\n========== Q6: HISTOGRAM ==========")
-
+    
+    print(Border)
+    print("Histogram of StudyHours")
+    print(Border) 
+    
     plt.figure(figsize=(8, 5))
 
     plt.hist(
@@ -155,18 +142,20 @@ def main():
 
     plt.show()
 
-    print("\nHistogram Observation:")
+    print("--                         Histogram Observation                         --")
     print("The histogram shows how StudyHours are distributed among the students.")
     print("The height of each bar represents the number of students in that range of study hours.")
-
-
-    # ============================================================
+    
+    
+     # ============================================================
     # Q7. Scatter plot: StudyHours vs PreviousScore
     # Different colors for Pass and Fail
     # ============================================================
 
-    print("\n========== Q7: SCATTER PLOT ==========")
-
+    print(Border)
+    print("Scatter plot")
+    print(Border) 
+    
     plt.figure(figsize=(8, 5))
 
     sns.scatterplot(
@@ -188,8 +177,10 @@ def main():
     # Identify outliers
     # ============================================================
 
-    print("\n========== Q8: BOXPLOT ==========")
-
+    print(Border)
+    print("Boxplot of Attendance")
+    print(Border) 
+    
     plt.figure(figsize=(8, 5))
 
     sns.boxplot(
@@ -215,14 +206,14 @@ def main():
         (df["Attendance"] > upper_limit)
     ]
 
-    print("\nAttendance Q1:", Q1)
-    print("Attendance Q3:", Q3)
-    print("IQR:", IQR)
+    print("\nAttendance Q1       :", Q1)
+    print("Attendance Q3         :", Q3)
+    print("IQR                   :", IQR)
 
-    print("\nLower limit:", lower_limit)
-    print("Upper limit:", upper_limit)
+    print("\nLower limit         :", lower_limit)
+    print("Upper limit           :", upper_limit)
 
-    print("\nNumber of outliers:", len(outliers))
+    print("\nNumber of outliers  :", len(outliers))
 
     if len(outliers) > 0:
         print("Outliers are present in Attendance.")
@@ -236,8 +227,11 @@ def main():
     # Q9. AssignmentsCompleted vs FinalResult
     # ============================================================
 
-    print("\n========== Q9: ASSIGNMENTS vs FINAL RESULT ==========")
-
+    print(Border)
+    print("AssignmentsCompleted vs FinalResult")
+    print(Border) 
+    
+    
     plt.figure(figsize=(8, 5))
 
     sns.boxplot(
@@ -256,14 +250,13 @@ def main():
         "AssignmentsCompleted"
     ].mean()
 
-    print("\nAverage AssignmentsCompleted by FinalResult:")
-    print(assignment_average)
+    print("Average AssignmentsCompleted by FinalResult:",assignment_average, "\n")
 
     if assignment_average.loc[1] > assignment_average.loc[0]:
-        print("\nObservation:")
+        print("--                         Observation                         --")
         print("Students who passed completed more assignments on average than students who failed.")
     else:
-        print("\nObservation:")
+        print("--                         Observation                         --")
         print("Students who passed did not complete more assignments on average than students who failed.")
 
 
@@ -271,8 +264,10 @@ def main():
     # Q10. SleepHours vs FinalResult
     # ============================================================
 
-    print("\n========== Q10: SLEEP HOURS vs FINAL RESULT ==========")
-
+    print(Border)
+    print("SleepHours vs FinalResult")
+    print(Border) 
+    
     plt.figure(figsize=(8, 5))
 
     sns.boxplot(
@@ -291,10 +286,9 @@ def main():
         "SleepHours"
     ].mean()
 
-    print("\nAverage SleepHours by FinalResult:")
-    print(sleep_average)
+    print("Average SleepHours by FinalResult:",sleep_average, "\n")
 
-    print("\nObservation:")
+    print("--                                      Observation                                               --")
 
     if sleep_average.loc[1] > sleep_average.loc[0]:
         print("Students who passed have higher average SleepHours than students who failed.")
@@ -303,10 +297,11 @@ def main():
     else:
         print("Both groups have the same average SleepHours.")
 
-    print("\nSleeping more does not automatically guarantee success.")
+    print("Sleeping more does not automatically guarantee success.","\n")
     print("SleepHours and FinalResult show a relationship in the dataset,")
-    print("but success depends on multiple factors.")
+ 
 
-
+    
+    
 if __name__ == "__main__":
     main()
