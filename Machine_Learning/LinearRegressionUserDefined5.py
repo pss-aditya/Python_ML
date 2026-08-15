@@ -57,6 +57,9 @@ def MarvellousPredictor():
     plt.show()
     
     
+    #predict Y_pred here
+    
+    
     
     
 def main():
