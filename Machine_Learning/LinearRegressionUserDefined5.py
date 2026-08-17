@@ -55,13 +55,7 @@ def MarvellousPredictor():
     plt.grid()
     plt.legend()
     plt.show()
-    
-    
-    #predict Y_pred here
-    
-    
-    
-    
+  
 def main():
     MarvellousPredictor()
 
