@@ -8,11 +8,11 @@ from sklearn.metrics import mean_squared_error, r2_score
 def MarvellousRegression(Datapath):
     Border = "-"*60
     ###################################################
-    # Step 1 : Load the Data
+    # Step 1 : Load the Dataset
     ###################################################
     
     print(Border)
-    print("Load the Data")
+    print("Load the Dataset")
     print(Border)
     
     df = pd.read_csv(Datapath)
