@@ -1,0 +1,175 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error, r2_score
+
+def MarvellousRegression(Datapath):
+    Border = "-"*60
+    ###################################################
+    # Step 1 : Load the Dataset
+    ###################################################
+    
+    print(Border)
+    print("Load the Dataset")
+    print(Border)
+    
+    df = pd.read_csv(Datapath)
+    print(df.head())
+    
+    
+    ###################################################
+    # Step 2 : Drop the Unwanted Column
+    ###################################################
+    
+    print(Border)
+    print("Drop the unwanted Column")
+    print(Border)
+    
+    if "Unnamed: 0" in df.columns:
+        df = df.drop(columns = ["Unnamed: 0"])
+        
+    print(df.head())
+    
+    ###################################################
+    # Step 3 : Check Missing Values
+    ###################################################
+    
+    print(Border)
+    print("Check Missing Values")
+
+    
+    print("Total Missing Values :")
+    print(Border)
+    print(df.isnull().sum())    
+    print(Border)
+    
+    ###################################################
+    # Step 4 : Statistical Summary
+    ###################################################
+    
+    print(Border)
+    print("Statistical Summary")
+    print(Border)
+    
+    print(df.describe())
+  
+    
+    ###################################################
+    # Step 5 : Co-relation
+    ###################################################
+    
+    print(Border)
+    print("Co-relation")
+    print(Border)
+    
+    print(df.corr())
+    
+    ###################################################
+    # Step 6 : Independent and Dependent variable
+    ###################################################
+    
+    print(Border)
+    print("Independent and Dependent variable")
+    print(Border)
+
+    X = df[["TV","radio","newspaper"]]
+    Y = df["sales"]
+    
+    print("Independent Variable are :")
+    print(X.head())
+    
+    print("Dependent Variable are   :")
+    print(Y.head())
+    
+    ###################################################
+    # Step 7 : Split the Dataset
+    ###################################################
+    
+    print(Border)
+    print("Split the Dataset")
+    print(Border) 
+    
+    X_train, X_test,Y_train,Y_test = train_test_split(X,Y,test_size = 0.20,random_state=42)
+    
+    print("Trainig Data :", X_train.shape)
+    print("Testing Data :", X_test.shape)
+    
+    
+    ###################################################
+    # Step 7 : Create and Train the Model
+    ###################################################
+    
+    print(Border)
+    print("Create and Train the Model")
+    print(Border) 
+    
+    model = LinearRegression()
+    
+    model = model.fit(X_train,Y_train)
+    
+    print("Model Trained Successfully....")
+    
+    
+    ###################################################
+    # Step 9 : Test the Model
+    ###################################################
+    
+    print(Border)
+    print("Test the Model")
+    print(Border) 
+    
+    Y_pred = model.predict(X_test)
+      
+    print("Expected Answer  :") 
+    print(Y_test[:3])
+    
+    print("\nPredicted Answer :")
+    print(Y_pred[:3])
+
+
+
+    ###################################################
+    # Step 10 : Evaluate the Model
+    ###################################################
+    
+    print(Border)
+    print("Evaluate the Model")
+    print(Border) 
+    
+    # mean squared error
+    MSE = mean_squared_error(Y_test,Y_pred) 
+    
+    # root mean squared error
+    RMSE = np.sqrt(MSE)
+    
+    R2 = r2_score(Y_test,Y_pred)
+    
+    print("MSE  :",MSE)
+    print("RMSE :",RMSE)
+    print("R2   :", R2)
+    
+    
+    
+    ###################################################
+    # Step 11 : Display the Coefficient
+    ###################################################
+    
+    print(Border)
+    print("Display the Coefficient")
+    print(Border)   
+    
+    print("TV coefficient        :",model.coef_[0])
+    print("Radio coefficient     :",model.coef_[1])
+    print("Newspaper coefficient :",model.coef_[2])
+
+    print("Intercept             :", model.intercept_)
+
+
+
+def main():
+    MarvellousRegression("Advertising.csv")
+
+if __name__ == "__main__":
+    main()
