@@ -12,7 +12,7 @@ The repository is continuously updated as I learn and implement new concepts.
 
 I am currently focusing on **Machine Learning with Python**.
 
-The Machine Learning section of this repository is currently under development and will be continuously updated as I learn and implement new concepts, algorithms, techniques, and case studies.
+The Machine Learning and Deep Learning section of this repository is currently under development and will be continuously updated as I learn and implement new concepts, algorithms, techniques, and case studies.
 
 Previously covered areas include:
 
@@ -33,6 +33,9 @@ Python_ML/
 │
 ├── Machine_Learning/
 │   └── Machine Learning concepts, algorithms, and practice
+|
+├── Deep_Learning/
+│   └── Deep Learning concepts,and practice
 │
 ├── Automations/
 │   └── Python-based automation scripts and experiments
